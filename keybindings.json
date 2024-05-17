@@ -1,0 +1,13 @@
+[
+    // Toggle file editor & diff editor
+    {
+        "key": "ctrl+cmd+\\",
+        "command": "git.openFile",
+        "when": "editorFocus && isInDiffEditor"
+    },
+    {
+        "key": "ctrl+cmd+\\",
+        "command": "git.openChange",
+        "when": "editorFocus && !isInDiffEditor"
+    }
+]
